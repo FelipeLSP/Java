@@ -11,7 +11,7 @@ public class Triangulo_Retangulo{
     }
 
     void ChecaAngulos (String pNome){
-        if (angulo1 == 90 | angulo2 == 90 | angulo3 == 90 & angulo1 + angulo2 + angulo3 == 180)
+        if (angulo1 == 90 | angulo2 == 90 | angulo3 == 90 && angulo1 + angulo2 + angulo3 == 180)
             System.out.println("O " + pNome + " e retangulo, pois atende a todos os requisitos");
         else
             System.out.println("O Triangulo nao e Retangulo");
